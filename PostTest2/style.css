@@ -1,0 +1,218 @@
+@import url('https://fonts.googleapis.com/css2?family=Lilita+One&display=swap');
+
+* {
+    padding: 0px;
+    margin: 0px;
+    font-family: "Lilita", sans-serif;
+}
+.logo img {
+    width: 150px;
+}
+.aboutme a {
+    color: #282622;
+    text-decoration: none;
+    padding: 0 15px;
+    font-size: 30px;
+    background-color: #7ec9ada3;
+    border-radius: 100%;
+}
+nav {
+    background-color: #1397ab;
+    padding: 2px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 3px 3px 3px 3px #3a727bb0;
+}   
+.nav-items a {
+    color: black;
+    text-decoration: none;
+    padding: 0 15px;
+}
+.nav-items button {
+    border: none;
+    padding: 8px 16px;
+    background-color: #7ec9ae;
+    color: blueviolet;
+    border-radius: 10px;
+}
+.nav-items button:hover {
+    background-color: rgba(185, 91, 185, 0.577);
+}
+.link-active {
+    border-bottom: 1px solid #282622;
+}
+.link {
+    margin: 3px;
+    color: #282622;
+    text-decoration: none;
+}
+.hero {
+    width: 100%;
+    height: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+}
+.hero-img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    filter: brightness(50%);
+    z-index: -1;
+    box-shadow: 3px 3px 3px 3px #2c5077b0;
+}
+.hero-title {
+    position: absolute;
+    color: #EFEFEF;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    text-shadow: 2px 2px 2px;
+}
+.hero-title h1 {
+    font-size: 40px;
+    font-weight: 800px;
+}
+.hero-title p {
+    font-size: 24px;
+}
+.content {
+    margin-top: -100px;
+    
+}
+.content-information {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    padding-top: -100px;
+    padding-bottom: 50px;
+}
+.content-image {
+    margin-right: 90px;
+    z-index: +1;
+}
+.card {
+    width: 30%;
+    height: 100px;
+    background-color: #EFEFEF;
+    border-color: #282622;
+    border: 3px solid black;
+    box-shadow: 2px 2px 2px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.information {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.plush {
+    text-align: center;
+    justify-content: center;
+    font-size: larger;
+    font-weight: bolder;
+}
+.plush-container {
+    justify-content: center;
+    align-items: center;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: -10px;
+    place-items: center;
+    height: 200px;
+    padding: 100px;
+    margin: 20px;
+    flex-direction: column;
+}
+.plush1-card {
+    text-align: center;
+    background-color: white;
+    border: -1px #282622;
+    box-shadow: 1px 1px 1px 1px #484847;
+    transition: all 0.5s ease-out;
+    transition: all 0.5s ease-in;
+}
+.plush1-card:hover {
+    transition: box-shadow 0.3s;
+    transform: scale(1.1);
+    box-shadow: 0px 0px 12px #282622;
+}
+.plush2-card {
+    text-align: center;
+    background-color: white;
+    border: -1px #282622;
+    box-shadow: 1px 1px 1px 1px #484847;
+    transition: all 0.5s ease-out;
+    transition: all 0.5s ease-in;
+}
+.plush2-card:hover {
+    transition: box-shadow 0.3s;
+    transform: scale(1.1);
+    box-shadow: 0px 0px 12px #282622;
+}
+.plush3-card {
+    text-align: center;
+    background-color: white;
+    border: -1px #282622;
+    box-shadow: 1px 1px 1px 1px #484847;
+    transition: all 0.5s ease-out;
+    transition: all 0.5s ease-in;
+}
+.plush3-card:hover {
+    transition: box-shadow 0.3s;
+    transform: scale(1.1);
+    box-shadow: 0px 0px 12px #282622;
+}
+.plush-container img {
+    width: 200px;
+    height: 200px;
+}
+.plush-button {
+    background-color: #1397ab;
+    padding: 15px;
+}
+button {
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+    color: #EFEFEF;
+}
+.cs-card {
+    background-color: #EFEFEF;
+    border: 1px solid #282622;
+}
+.coming-soon {
+    width: 100%;
+    height: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+    padding-top: 10%;
+    padding-bottom: 10%;
+}
+.cs-text {
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+}
+footer {
+    background-color: #121212;
+    color: #EFEFEF;
+    padding: 30px;
+    margin: auto;
+    height: 30px;
+    text-align: center;
+    justify-content: center;
+
+}
