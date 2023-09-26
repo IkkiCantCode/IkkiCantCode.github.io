@@ -10,11 +10,10 @@
 }
 .aboutme a {
     color: #282622;
-    text-decoration: none;
+    text-decoration: underline;
     padding: 0 15px;
-    font-size: 30px;
-    background-color: #7ec9ada3;
-    border-radius: 100%;
+    font-size: 50px;
+    text-shadow: 1px 1px 1px #28262278;
 }
 nav {
     background-color: #1397ab;

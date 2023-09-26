@@ -12,9 +12,9 @@
     color: #282622;
     text-decoration: none;
     padding: 0 15px;
-    font-size: 30px;
-    background-color: #7ec9ada3;
-    border-radius: 100%;
+    font-size: 50px;
+    text-decoration: underline;
+    text-shadow: 1px 1px 1px #2826228f;
 }
 nav {
     background-color: #1397ab;
@@ -28,6 +28,7 @@ nav {
     color: black;
     text-decoration: none;
     padding: 0 15px;
+    font-size: medium;
 }
 .nav-items button {
     border: none;
@@ -35,6 +36,7 @@ nav {
     background-color: #7ec9ae;
     color: blueviolet;
     border-radius: 10px;
+    font-size: medium;
 }
 .nav-items button:hover {
     background-color: rgba(185, 91, 185, 0.577);
@@ -49,7 +51,7 @@ nav {
 }
 .hero {
     width: 100%;
-    height: 50%;
+    height: 600px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -117,62 +119,42 @@ nav {
     justify-content: center;
     font-size: larger;
     font-weight: bolder;
+    text-shadow: 2px 2px 2px #4848476c;
 }
 .plush-container {
     justify-content: center;
     align-items: center;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    grid-gap: -10px;
+    grid-gap: 10px;
     place-items: center;
     height: 200px;
     padding: 100px;
     margin: 20px;
+    margin-bottom: 50px;
     flex-direction: column;
 }
-.plush1-card {
-    text-align: center;
-    background-color: white;
-    border: -1px #282622;
-    box-shadow: 1px 1px 1px 1px #484847;
-    transition: all 0.5s ease-out;
-    transition: all 0.5s ease-in;
-}
-.plush1-card:hover {
-    transition: box-shadow 0.3s;
-    transform: scale(1.1);
-    box-shadow: 0px 0px 12px #282622;
-}
-.plush2-card {
-    text-align: center;
-    background-color: white;
-    border: -1px #282622;
-    box-shadow: 1px 1px 1px 1px #484847;
-    transition: all 0.5s ease-out;
-    transition: all 0.5s ease-in;
-}
-.plush2-card:hover {
-    transition: box-shadow 0.3s;
-    transform: scale(1.1);
-    box-shadow: 0px 0px 12px #282622;
-}
-.plush3-card {
-    text-align: center;
-    background-color: white;
-    border: -1px #282622;
-    box-shadow: 1px 1px 1px 1px #484847;
-    transition: all 0.5s ease-out;
-    transition: all 0.5s ease-in;
-}
-.plush3-card:hover {
-    transition: box-shadow 0.3s;
-    transform: scale(1.1);
-    box-shadow: 0px 0px 12px #282622;
-}
-.plush-container img {
+.plush-card {
     width: 200px;
-    height: 200px;
+    height: 300px;
+    text-align: center;
+    background-color: white;
+    border: -1px #282622;
+    box-shadow: 1px 1px 1px 1px #484847;
+    transition: all 0.5s ease-out;
+    transition: all 0.5s ease-in;
 }
+
+.plush-card img {
+    width: 100%;
+    height: 100%;
+}
+.plush-card:hover {
+    transition: box-shadow 0.3s;
+    transform: scale(1.1);
+    box-shadow: 0px 0px 12px #282622;
+}
+
 .plush-button {
     background-color: #1397ab;
     padding: 15px;
@@ -184,9 +166,92 @@ button {
     font-weight: bold;
     color: #EFEFEF;
 }
-.cs-card {
-    background-color: #EFEFEF;
-    border: 1px solid #282622;
+.doll {
+    text-align: center;
+    justify-content: center;
+    font-size: larger;
+    font-weight: bolder;
+    text-shadow: 2px 2px 2px #4848476c;
+}
+.doll-container {
+    justify-content: center;
+    align-items: center;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 10px;
+    place-items: center;
+    height: 200px;
+    padding: 100px;
+    margin: 20px;
+    margin-bottom: 50px;
+    flex-direction: column;
+}
+.doll-card {
+    width: 200px;
+    height: 300px;
+    text-align: center;
+    background-color: white;
+    border: -1px #282622;
+    box-shadow: 1px 1px 1px 1px #484847;
+    transition: all 0.5s ease-out;
+    transition: all 0.5s ease-in;
+}
+.doll-card:hover {
+    transition: box-shadow 0.3s;
+    transform: scale(1.1);
+    box-shadow: 0px 0px 12px #282622;
+}
+.doll-card img {
+    width: 100%;
+    height: 100%;
+}
+.doll-button {
+    background-color: #d5332f;
+    padding: 15px;
+}
+
+.keychain {
+    text-align: center;
+    justify-content: center;
+    font-size: larger;
+    font-weight: bolder;
+    text-shadow: 2px 2px 2px #4848476c;
+}
+.keychain-container {
+    justify-content: center;
+    align-items: center;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 10px;
+    place-items: center;
+    height: 200px;
+    padding: 100px;
+    margin: 20px;
+    margin-bottom: 50px;
+    flex-direction: column;
+}
+.keychain-card {
+    width: 200px;
+    height: 300px;
+    text-align: center;
+    background-color: white;
+    border: -1px #282622;
+    box-shadow: 1px 1px 1px 1px #484847;
+    transition: all 0.5s ease-out;
+    transition: all 0.5s ease-in;
+}
+.keychain-card:hover {
+    transition: box-shadow 0.3s;
+    transform: scale(1.1);
+    box-shadow: 0px 0px 12px #282622;
+}
+.keychain-card img {
+    width: 100%;
+    height: 100%;
+}
+.keychain-button {
+    background-color: #7ec9ae;
+    padding: 15px;
 }
 .coming-soon {
     width: 100%;
@@ -205,7 +270,11 @@ button {
     position: absolute;
     display: flex;
     flex-direction: column;
+    text-align: center;
+    font-size: larger;
+    font-weight: bolder;
 }
+
 footer {
     background-color: #121212;
     color: #EFEFEF;
