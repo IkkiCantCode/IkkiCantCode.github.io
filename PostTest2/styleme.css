@@ -141,3 +141,86 @@ footer {
     text-align: center;
 
 }
+ /* Existing CSS styles */
+
+@media only screen and (max-width: 768px) {
+    .nav {
+        padding: 60px;
+    }
+    .navbar {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 0px;
+        margin-top: 0px;
+        margin-bottom: -80px;
+    }
+    .nav-items {
+        align-self: center;
+        margin-top: 10px;
+        margin-bottom: 90px;
+    }
+    .boutme {
+        width: 100%;
+        position: static; 
+        text-align: center; 
+    }
+    .hero {
+        height: auto; 
+    }
+    .hero-img {
+        filter: none; 
+    }
+    .ardhifa-image {
+        width: 150px; 
+        height: 150px; 
+    }
+    .bio {
+        font-size: 100%;
+    }
+    .intro {
+        flex-direction: column; 
+        text-align: center; 
+        margin-top: 20px; 
+    }
+    .intro img {
+        width: 100px;
+        height: 100px; 
+    }
+    .foot {
+        padding: 10px; 
+    }
+    .hero {
+        width: 100%;
+        height: 75vh; 
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        position: relative;
+        background-image: url('water.png');
+        background-size: cover; 
+        background-position: center; 
+        background-attachment: fixed; 
+    }
+    .hero-img {
+        width: 0%;
+        height: 0%;
+    }
+    .dif {
+        width: 80%; 
+        max-width: 600px; 
+        background-color: #7ec9ad7b;
+        border-radius: 8px;
+        box-shadow: 4px 4px 4px #9fdac5ae;
+        padding: 20px;
+        text-align: center; 
+        margin: 0 auto; 
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+}

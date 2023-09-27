@@ -124,15 +124,16 @@ nav {
 .plush-container {
     justify-content: center;
     align-items: center;
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    /* display: grid;
+    grid-template-columns: repeat(3, 1fr); */
+
+    display: flex;
+    flex-wrap: wrap;
     grid-gap: 10px;
     place-items: center;
-    height: 200px;
     padding: 100px;
     margin: 20px;
     margin-bottom: 50px;
-    flex-direction: column;
 }
 .plush-card {
     width: 200px;
@@ -140,6 +141,7 @@ nav {
     text-align: center;
     background-color: white;
     border: -1px #282622;
+    margin: 0 30px;
     box-shadow: 1px 1px 1px 1px #484847;
     transition: all 0.5s ease-out;
     transition: all 0.5s ease-in;
@@ -176,15 +178,13 @@ button {
 .doll-container {
     justify-content: center;
     align-items: center;
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-gap: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    grid-gap: 90px;
     place-items: center;
-    height: 200px;
     padding: 100px;
     margin: 20px;
     margin-bottom: 50px;
-    flex-direction: column;
 }
 .doll-card {
     width: 200px;
@@ -220,15 +220,13 @@ button {
 .keychain-container {
     justify-content: center;
     align-items: center;
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-gap: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    grid-gap: 90px;
     place-items: center;
-    height: 200px;
     padding: 100px;
     margin: 20px;
     margin-bottom: 50px;
-    flex-direction: column;
 }
 .keychain-card {
     width: 200px;
@@ -284,4 +282,75 @@ footer {
     text-align: center;
     justify-content: center;
 
+}
+@media only screen and (max-width: 768px) {
+    .nav {
+        padding: 60px;
+    }
+    .navbar {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 0px;
+        margin-top: 0px;
+        margin-bottom: -80px;
+    }
+    .nav-items{
+        margin: 10px 0;
+        align-self: center;
+    }
+
+    .content-information {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .content-image {
+        width: 50%;
+    }
+
+    .card {
+        width: 90%;
+    }
+
+    .plush-container {
+        padding: 10px;
+    }
+
+    .plush-card {
+        margin: 10px 0;
+    }
+    .doll-container {
+        padding: 10px;
+    }
+
+    .doll-card {
+        margin: 10px 0;
+    }
+    .keychain-container {
+        padding: 10px;
+    }
+
+    .keychain-card {
+        margin: 10px 0;
+    }
+    .doll-container {
+        grid-gap: 10px;
+    }
+    .keychain-container {
+        grid-gap: 10px;
+    }
+    .hero-title h1 {
+        font-size: 25px;
+    }
+    .hero-title p {
+        font-size: 20px;
+    }
+    .information h1 {
+        font-size: 20px;
+    }
+    .nav-items button {
+        
+    }
 }
